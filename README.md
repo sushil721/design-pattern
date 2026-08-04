@@ -1,5 +1,6 @@
 # Java design-pattern
 ### Types of design patterns:
+#### Referense: https://github.com/TheCuriousCoder-sg/design-patterns (Changes branch and see all patterns step by step)
 
 ## 1. Creational Design Pattern.
 ## 2. Structural Design Pattern.
