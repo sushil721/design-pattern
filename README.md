@@ -21,5 +21,8 @@ _Limitations:_ It is breaking single responsibility principle and Open close pri
 
 #### **e.** Singleton Pattern: it ensures that only a single object of a class exists throughout the entire application and provides a global point of access to that object. It is used when we want to restrict the instantiation of a class to one object.
 
+#### **f.** Prototype Pattern: it is a design pattern that allows us to create new objects by coping existing objects, rather than creating new instances from scratch. It is used when we want to create a new object that is similar to an existing object, but with some modifications.
+_Copy Constructor:_ it creates a new object by copying the values of an existing object.
+
 
 
