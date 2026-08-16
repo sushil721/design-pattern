@@ -26,4 +26,10 @@ _Copy Constructor:_ it creates a new object by copying the values of an existing
 
 ### 2. Structural Design Pattern: These are the design patterns that deal with how classes and onjects are organized to form larger structures. It provides a way to create relationships between classes and objects, making it easier to build complex systems.
 #### **a.** Adapter Pattern: It is a structural design pattern that allow two incompatible system ot interfaces to work together. it is a design pattern that allows us to convert the interface of a class into another interface that the client expects. It is used when we want to use an existing class that has a different interface than the one we need.
+#### **b.** Decorator Pattern: it is a structural design pattern that allow us to add new behaviour or features to an object dynamically. It is a structural design pattern that allows us to add new functionality to an existing object without changing its structure. It is used when we want to add new behavior to an object at runtime, without modifying its code.
+_Note-1:_ It allows us to wrap an existing object and keep adding new features or behaviour dynamically at runtime.
+_Example-1:_ Order a PIZZA and add extra toppings like cheese, mushrooms, etc. without changing the original pizza class.
+_Example-2:_ Hotel room booking system, where we can add extra features like breakfast, spa, minibar etc. without changing the original room class.
+_Note-2:_ Put Debugger in main and Decoder classes and go through the code to understand how it works.
+
 
