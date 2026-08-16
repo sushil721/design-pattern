@@ -37,4 +37,7 @@ _Types of Proxies Patterns:_ 1. Virtual Proxy, 2. Protection Proxy, 3. Remote Pr
 _Note-1:_ We have to do Lazy initialization of Real Object in Proxy class, so that we can create the Real Object only when it is required. It will save memory and time.
 _Note-1:_ And we have to make sure that loading part will be done only once, so we have to use synchronized block to make it thread safe.
 
+### 3. Behavioral Design Pattern: Defines the way objects interact with each other and how they communicate. It provides a way to define the behavior of objects and how they interact with each other, making it easier to build complex systems.
+#### **a.** Observer Pattern: It is a behavioral design pattern where one object automatically notifies multiple other objects whenever any change or any event occurs in the state of that object. It is a behavioral design pattern that allows us to define a one-to-many dependency between objects, so that when one object changes state, all its dependents are notified and updated automatically. It is used when we want to create a system where multiple objects need to be notified of changes in another object.
+_Example:_ A YouTube channel (Subject) notifies multiple subscribers (Observers) whenever a new video is published. The subscribers can then update their own state (Comment/like) based on the new information/notification.
 
