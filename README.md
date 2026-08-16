@@ -31,5 +31,10 @@ _Note-1:_ It allows us to wrap an existing object and keep adding new features o
 _Example-1:_ Order a PIZZA and add extra toppings like cheese, mushrooms, etc. without changing the original pizza class.
 _Example-2:_ Hotel room booking system, where we can add extra features like breakfast, spa, minibar etc. without changing the original room class.
 _Note-2:_ Put Debugger in main and Decoder classes and go through the code to understand how it works.
+#### **c.** Proxy Pattern: It is a structural design pattern that provides a placeholder (Representative Object) for another object. it is a structural design pattern that provides a surrogate or placeholder for another object to control access to it. It is used when we want to control access to an object, or when we want to add additional functionality to an object without changing its code.
+_Example:_ Client -> Proxy -> Real Object
+_Types of Proxies Patterns:_ 1. Virtual Proxy, 2. Protection Proxy, 3. Remote Proxy, 4. Smart Proxy.
+_Note-1:_ We have to do Lazy initialization of Real Object in Proxy class, so that we can create the Real Object only when it is required. It will save memory and time.
+_Note-1:_ And we have to make sure that loading part will be done only once, so we have to use synchronized block to make it thread safe.
 
 
