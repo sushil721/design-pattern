@@ -24,5 +24,6 @@ _Limitations:_ It is breaking single responsibility principle and Open close pri
 #### **f.** Prototype Pattern: it is a design pattern that allows us to create new objects by coping existing objects, rather than creating new instances from scratch. It is used when we want to create a new object that is similar to an existing object, but with some modifications.
 _Copy Constructor:_ it creates a new object by copying the values of an existing object.
 
-
+### 2. Structural Design Pattern: These are the design patterns that deal with how classes and onjects are organized to form larger structures. It provides a way to create relationships between classes and objects, making it easier to build complex systems.
+#### **a.** Adapter Pattern: It is a structural design pattern that allow two incompatible system ot interfaces to work together. it is a design pattern that allows us to convert the interface of a class into another interface that the client expects. It is used when we want to use an existing class that has a different interface than the one we need.
 
